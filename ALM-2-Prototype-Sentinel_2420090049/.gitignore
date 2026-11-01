@@ -1,0 +1,21 @@
+node_modules/
+.venv/
+venv/
+dist/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.pytest_cache/
+.tmp-build-*
+.env
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# runtime logs: keep the folder, ignore its contents
+logs/*
+!logs/.gitkeep
